@@ -7,8 +7,10 @@
 2. BUILDING THE LOGIN SCREEN
 
 - <!-- This will include the spotify logo and a button which redirects users to the actual spotify login page. Spotify will then authorize user and redirect to the clone app... setup a spotify.js file to handle authentication, clientId that was saved, and redirecting. -->
-- <!--  -->
-- <!--  -->
+
+- <!-- In spotify.js, setup some code to handle permissions, as well as a function to get the token from url when users have been redirected back to the localhost -->
+
+- <!-- Install spotify web api with npm i spotify-web-api-js, then import in App.js -->
 - <!--  -->
 - <!--  -->
 - <!--  -->
