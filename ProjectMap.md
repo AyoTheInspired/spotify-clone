@@ -3,7 +3,10 @@
 1.  GENERAL SETUP
 
 - <!-- Setup a new project on firebase for hosting, then head to spotify for developers to create a new app... copy the client ID figures after initial setup. Edit settings in spotify and redirect url to localhost/3000 -->
-- <!--  -->
+
+2. BUILDING THE LOGIN SCREEN
+
+- <!-- This will include the spotify logo and a button which redirects users to the actual spotify login page. Spotify will then authorize user and redirect to the clone app... setup a spotify.js file to handle authentication, clientId that was saved, and redirecting. -->
 - <!--  -->
 - <!--  -->
 - <!--  -->
@@ -16,4 +19,4 @@
 - <!--  -->
 - <!--  -->
 
-<!-- c986827b68714f5f9f0a034108f73231 -->
+<!-- CLIENT ID: c986827b68714f5f9f0a034108f73231 -->
