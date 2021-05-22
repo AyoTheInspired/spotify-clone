@@ -9,7 +9,7 @@ import SongRow from "./SongRow";
 
 function Body({ spotify }) {
 	const [{ discover_weekly, user }, dispatch] = useDataLayerValue();
-	console.log(user?.tracks);
+	// console.log(user?.tracks);
 
 	return (
 		<div className="body">
