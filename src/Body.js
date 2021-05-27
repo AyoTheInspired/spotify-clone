@@ -9,7 +9,6 @@ import SongRow from "./SongRow";
 
 function Body({ spotify }) {
 	const [{ discover_weekly, user }, dispatch] = useDataLayerValue();
-	// console.log(user?.tracks);
 
 	return (
 		<div className="body">
@@ -33,8 +32,6 @@ function Body({ spotify }) {
 					<FavoriteIcon fontSize="large" className="mui__icon" />
 					<MoreHorizIcon />
 				</div>
-
-				{/* {LIST OF SONGS} */}
 
 				{discover_weekly?.tracks.items.map((item) => (
 					<SongRow track={item.track} />
